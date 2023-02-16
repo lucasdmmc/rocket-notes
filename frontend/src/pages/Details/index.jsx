@@ -12,9 +12,9 @@ export function Details() {
 
       <main>
         <Content>
-          <ButtonText title="Excluir nota" />
+          <ButtonText title="Excluir nota" />3333333333333333333333333333333333333333
 
-          <h2>Introdução ao React</h2>
+          <h1>Introdução ao React</h1>
 
           <p>
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cumque, ea assumenda dolorum temporibus vero tenetur ad. Tenetur minus fuga praesentium, voluptatum voluptate, tempora eaque esse odit delectus possimus totam unde!
