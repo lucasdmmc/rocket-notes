@@ -5,5 +5,7 @@ export const Container = styled.button`
   border: none;
 
   font-size: 16px;
+  
   color: ${({ theme, isActive }) => isActive ? theme.COLORS.ORANGE : theme.COLORS.GRAY_100};
+
 `

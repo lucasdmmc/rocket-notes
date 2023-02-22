@@ -17,7 +17,13 @@ export const Container = styled.div`
     svg {
       color: ${({ theme }) => theme.COLORS.GRAY_100};
     }
-}
+
+    button {
+      border: none;
+      background: none;
+    }
+
+  }
 `
 
 export const Form = styled.form`
