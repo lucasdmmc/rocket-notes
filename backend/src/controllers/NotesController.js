@@ -22,8 +22,8 @@ class NotesController {
 
     const tagsInsert = tags.map(name => {
       return {
-        note_id,
         name,
+        note_id,
         user_id
       }
     });
@@ -74,6 +74,7 @@ class NotesController {
         .whereLike("notes.title", `%${title}%`)
         .whereIn("name", filteredTags)
         .innerJoin("notes", "notes.id", "tags.note_id")
+        .groupBy("notes.id")
         .orderBy("notes.title")
     } else {
       notes = await knex("notes")
